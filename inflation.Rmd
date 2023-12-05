@@ -58,5 +58,5 @@ inflation %>%
   ungroup() %>% 
   ggplot() +
   geom_line(aes(date, value, color = name)) +
-  
+  NULL
 ```
